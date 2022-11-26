@@ -1,7 +1,7 @@
 export const validateCommentForm = (values) => {
   const errors = {};
 
-  if (!values.ratings) {
+  if (!values.rating) {
     errors.rating = "Required";
   }
 
